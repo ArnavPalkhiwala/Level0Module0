@@ -18,6 +18,7 @@ public class RobotGraffiti {
 		Bob.hide();
 		Bob.show();
 		Bob.penUp();
+
 		Bob.moveTo(200, 150);
 		Bob.penDown();
 		Bob.turn(135);
@@ -33,6 +34,7 @@ public class RobotGraffiti {
 		Bob.hide();
 		Bob.show();
 		Bob.penUp();
+
 		Bob.moveTo(800, 200);
 		Bob.penDown();
 		for (int i = 0; i < 4; i++) {
@@ -41,6 +43,7 @@ public class RobotGraffiti {
 		}
 		Bob.moveTo(900, 250);
 		Bob.penUp();
+
 		Bob.move(200);
 		Bob.turn(90);
 		Bob.move(200);
